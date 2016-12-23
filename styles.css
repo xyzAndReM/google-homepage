@@ -1,0 +1,13 @@
+IMG.center{
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top:235px;
+}
+.buttonHolder{ 
+padding-top:18px;
+text-align: center; 
+}
+.mytext {
+    width: 440px;
+}

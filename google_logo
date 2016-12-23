@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>android logo</title>
+	<link rel="stylesheet" href="styles.css">
+
+
+
+<div align="center"><form id="form_login"><!--form content here--></form></div>
+</head>
+
+<body>
+
+
+<img src="gl.png" class ="center" width="400" height="120">	
+
+<div align="center">
+ <form >
+
+  	<input type="text" id="text" name="text_name" class="mytext" />
+
+	<div class="buttonHolder">
+  		<input value="Search" title="Search" type="submit" id="btn_s"> 
+  		<input value="I'm Feeling Lucky" title="I'm Feeling Lucky" name="lucky" type="submit" id="btn_i">
+	</div>
+ </form> 
+</div>
+</body>
