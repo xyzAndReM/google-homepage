@@ -12,12 +12,28 @@
 <body>
 
 
+<ul>
+  <li><a href="#home">LOL</a></li>
+  <li><a href="#news"><img src="pix.jpg" width="30" height="30"></a></li>
+  <li><a href="#contact">Imagens</a></li>
+  <li><a href="#about">Gmail</a></li>
+</ul>
+
+
+
+
+
 <img src="gl.png" class ="center" width="400" height="120">	
 
 <div align="center">
  <form >
 
+ 	<div class="pixie" dir="ltr">
   	<input type="text" id="text" name="text_name" class="mytext" />
+  	
+  		<a href="#news"><img src="pix.jpg" width="25" height="25"></a>
+  	</div>
+
 
 	<div class="buttonHolder">
   		<input value="Search" title="Search" type="submit" id="btn_s"> 
