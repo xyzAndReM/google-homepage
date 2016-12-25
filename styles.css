@@ -2,17 +2,43 @@ IMG.center{
 display: block;
 margin-left: auto;
 margin-right: auto;
-margin-top:235px;
+margin-top:150px;
 }
 .buttonHolder{ 
-padding-top:18px;
+padding-top:10px;
 text-align: center; 
 }
-.pixie { position: relative; width:400px; }
-.pixie input { border:none: background:#fff; display:block; width: 100%; box-sizing: border-box }
-.pixie img { position: absolute; top: 2px; right: 5px }
+
+.boxed{
+margin-top:10px;
+height: 44px;
+width: 500px;
+background-color: #fff;
+height: 44px;
+vertical-align: top;
+border-radius: 2px;
+box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.img{
+	display: block;
+	margin-top:-34px;
+	margin-left: 460px;
+}
+
 .mytext {
-    width: 440px;
+	display: block;
+	margin-top:14px;
+    width: 420px;
+    border: medium none;
+
+	padding: 5px;
+	outline: small none;
+	font: 16px arial,sans-serif;
+	line-height: 14px;
+	height: 34px !important;
+	white-space: nowrap;
 }
 ul {
     list-style-type: none;
@@ -52,19 +78,17 @@ IMG.li a:hover{
 #btn_s{
 
 
--moz-user-select: none;
-background-color: #f2f2f2;
-border: 1px solid #f2f2f2;
-border-radius: 2px;
-color: #757575;
-cursor: default;
-font-family: arial,sans-serif;
-font-size: 13px;
-font-weight: bold;
-margin: 11px 4px;
-min-width: 54px;
-padding: 0 16px;
+margin: 10px 3px;
+background-color: #f5f5f5;
+border: 1px solid #f5f5f5;
+color: #737373;
+padding: 10px 15px;
 text-align: center;
+text-decoration: none;
+font-weight: bold;
+display: inline-block;
+font-size: 13px;
+border-radius: 2px;
 
 }
 #btn_s:hover{
@@ -76,20 +100,17 @@ box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 #btn_i{
 
 
--moz-user-select: none;
-background-color: #f2f2f2;
-border: 1px solid #f2f2f2;
-border-radius: 2px;
-color: #757575;
-cursor: default;
-font-family: arial,sans-serif;
-font-size: 13px;
-font-weight: bold;
-margin: 11px 4px;
-min-width: 54px;
-padding: 0 16px;
+margin: 10px 3px;
+background: #f2f2f2;
+border: 1px solid #f5f5f5;
+color: #737373;
+padding: 10px 15px;
 text-align: center;
-
+text-decoration: none;
+font-weight: bold;
+display: inline-block;
+font-size: 13px;
+border-radius: 2px;
 }
 #btn_i:hover{
 color:black;

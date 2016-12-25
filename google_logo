@@ -26,18 +26,24 @@
 <img src="gl.png" class ="center" width="400" height="120">	
 
 <div align="center">
- <form >
 
- 	<div class="pixie" dir="ltr">
-  	<input type="text" id="text" name="text_name" class="mytext" />
-  	
-  		<a href="#news"><img src="pix.jpg" width="25" height="25"></a>
-  	</div>
+
+	
+ <form >
+ 		<div class="boxed">
+  			<div class="pixie" >
+  				<input type="text" id="text" name="text_name" class="mytext" />
+  			</div>
+  			<div class="img" >
+  					<a href="lol"> <img src="pix.jpg" width="30px" height="30px"> </a>
+  			</div>
+		</div>
+ 	
 
 
 	<div class="buttonHolder">
-  		<input value="Search" title="Search" type="submit" id="btn_s"> 
-  		<input value="I'm Feeling Lucky" title="I'm Feeling Lucky" name="lucky" type="submit" id="btn_i">
+  		<input value="Pesquisa Google" title="Search" type="submit" id="btn_s"> 
+  		<input value="Estou me sentindo com sorte" title="I'm Feeling Lucky" name="lucky" type="submit" id="btn_i">
 	</div>
  </form> 
 </div>
