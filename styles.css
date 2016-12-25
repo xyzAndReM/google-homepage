@@ -47,10 +47,23 @@ ul {
     padding: 0;
  
 }
+div.bottom{
+
+position: absolute;
+width: auto;
+height: 40px;
+background-color: #efefef;
+border-top: 1px;
+bottom: 0;
+left: 0;
+right: 0;
+
+}
 
 li {
     float: right;
-    display: block;
+    display: inline-block;
+
     padding: 8px;
     font-size: 13px;
 
@@ -74,6 +87,25 @@ IMG.li a:hover{
 
 
 	opacity:1;
+}
+
+ul.ll{
+	float: left;
+}
+ul.rl{
+	float: right;
+}
+li.leftlist{margin-left: 15px;
+	padding-top: 7px;
+	display: inline-block;
+
+
+}
+li.rightlist{
+
+	margin-right: 15px;
+	padding-top: 7px;
+	display: inline-block;
 }
 #btn_s{
 

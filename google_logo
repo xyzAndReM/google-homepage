@@ -12,7 +12,7 @@
 <body>
 
 
-<ul>
+<ul >
   <li><a href="#home">LOL</a></li>
   <li><a href="#news"><img src="pix.jpg" width="30" height="30"></a></li>
   <li><a href="#contact">Imagens</a></li>
@@ -47,4 +47,29 @@
 	</div>
  </form> 
 </div>
+
+<div class="bottom">
+
+<ul class="ll">
+	
+  <li class="leftlist"><a href="#homdsd">Publicidade</a></li>
+  <li class="leftlist"><a href="#condsdtact">Negocios</a></li>
+  <li class="leftlist"><a href="#homdsd">Sobre</a></li>
+</ul>
+
+	<ul class="rl" >
+	
+  <li class="rlist"><a href="#homdsd">Usar Google.com</a></li>
+  <li class="rlist"><a href="#condsdtact">Configura&#231;&otilde;es</a></li>
+  <li class="rlist"><a href="#homdsd">Termos</a></li>
+  <li class="rlist"><a href="#abodsdut">Privacidade</a></li>
+</ul>
+
+
+
+
+</div>
+
+
+
 </body>
